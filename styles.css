@@ -222,11 +222,17 @@ footer {
       display: flex;
       flex-flow: column;
       align-items: center;
+      width: 80%;
     }
+
     .newsletter form > * {
       width: 100%;
       margin: 10px auto;
     }
+    .newsletter input[type="email"] {
+      width: 100%;
+    }
+
     .boxes .container {
       flex-flow: column;
     }
